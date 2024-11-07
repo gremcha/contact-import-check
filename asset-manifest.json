@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/contact-import-check/static/css/main.6d78e9a2.css",
+    "main.js": "/contact-import-check/static/js/main.9d1de862.js",
+    "static/js/453.835ca95d.chunk.js": "/contact-import-check/static/js/453.835ca95d.chunk.js",
+    "index.html": "/contact-import-check/index.html",
+    "main.6d78e9a2.css.map": "/contact-import-check/static/css/main.6d78e9a2.css.map",
+    "main.9d1de862.js.map": "/contact-import-check/static/js/main.9d1de862.js.map",
+    "453.835ca95d.chunk.js.map": "/contact-import-check/static/js/453.835ca95d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d78e9a2.css",
+    "static/js/main.9d1de862.js"
+  ]
+}
