@@ -16,7 +16,7 @@ async function pickContacts() {
         return contacts
     } catch (e) {
         console.log(e)
-        alert('Не удалось получить контакты')
+        alert(e)
         return []
     }
 }
