@@ -1,0 +1,16 @@
+.contactCard {
+  display: flex;
+  gap: 0.5rem;
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}

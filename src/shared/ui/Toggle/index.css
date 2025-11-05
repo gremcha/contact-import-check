@@ -1,0 +1,38 @@
+.toggleContainer {
+  display: flex;
+  gap: 0.5rem;
+
+  .inputToggle {
+    display: none;
+  }
+  .toggle {
+    cursor: pointer;
+    display: block;
+    border: 1px solid #d2d2d2;
+    border-radius: 11px;
+    background-color: #e1e1e1;
+    width: 40px;
+    height: 20px;
+    position: relative;
+    transition: all 0.2s;
+  }
+  .toggle:after {
+    content: "";
+    background-color: #fff;
+    border-radius: 10px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.2s;
+  }
+  .inputToggle:checked + .toggle {
+    background-color: rgb(129, 166, 234);
+    border-color: rgb(129, 166, 234);
+  }
+  .inputToggle:checked + .toggle:after {
+    left: 20px;
+    border-color: rgb(129, 166, 234);
+  }
+}
