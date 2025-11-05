@@ -1,6 +1,9 @@
 .contactCard {
   display: flex;
   gap: 0.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
 
   .icons {
     display: flex;

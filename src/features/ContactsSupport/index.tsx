@@ -13,7 +13,7 @@ export const ContactsSupport = () => {
   return (
     <FormBlock
       label="Проверить поддержку api в браузере"
-      button={{ onClick: checkSupport, label: "Проверить" }}
+      button={{ onClick: checkSupport, label: "Проверить", type: "button" }}
     >
       <p>{`Результат: ${field.value}`}</p>
     </FormBlock>
